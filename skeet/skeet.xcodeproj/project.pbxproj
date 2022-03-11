@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F128CE720473A2E00399A72 /* uiInteract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CDA20473A2C00399A72 /* uiInteract.cpp */; };
+		5F128CE820473A2E00399A72 /* driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CDB20473A2C00399A72 /* driver.cpp */; };
+		5F128CE920473A2E00399A72 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CDD20473A2D00399A72 /* game.cpp */; };
+		5F128CEA20473A2E00399A72 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CDF20473A2D00399A72 /* makefile */; };
+		5F128CEB20473A2E00399A72 /* uiDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CE020473A2D00399A72 /* uiDraw.cpp */; };
+		5F128CEC20473A2E00399A72 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CE120473A2D00399A72 /* point.cpp */; };
+		5F128CED20473A2E00399A72 /* rifle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CE420473A2D00399A72 /* rifle.cpp */; };
+		5F128CF020473A6A00399A72 /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CEE20473A6A00399A72 /* bullet.cpp */; };
+		5F128CF32048E66500399A72 /* flyingObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CF12048E66500399A72 /* flyingObject.cpp */; };
+		5F128CF62048EA5D00399A72 /* bird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CF42048EA5D00399A72 /* bird.cpp */; };
+		5F128CF92048EBF900399A72 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CF72048EBF800399A72 /* velocity.cpp */; };
+		5F128CFC2048EEA900399A72 /* toughBird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CFA2048EEA900399A72 /* toughBird.cpp */; };
+		5F128CFF2048EEB700399A72 /* sacredBird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128CFD2048EEB700399A72 /* sacredBird.cpp */; };
+		5F128D022049E2EB00399A72 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F128D012049E2EA00399A72 /* GLUT.framework */; };
+		5F128D042049E2F200399A72 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F128D032049E2F200399A72 /* OpenGL.framework */; };
+		5F128D07204D80C100399A72 /* standardBird.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F128D05204D80C100399A72 /* standardBird.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F8880FA204738B30080D7F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F128CDA20473A2C00399A72 /* uiInteract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiInteract.cpp; sourceTree = "<group>"; };
+		5F128CDB20473A2C00399A72 /* driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driver.cpp; sourceTree = "<group>"; };
+		5F128CDD20473A2D00399A72 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		5F128CDE20473A2D00399A72 /* uiInteract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiInteract.h; sourceTree = "<group>"; };
+		5F128CDF20473A2D00399A72 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		5F128CE020473A2D00399A72 /* uiDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiDraw.cpp; sourceTree = "<group>"; };
+		5F128CE120473A2D00399A72 /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		5F128CE220473A2D00399A72 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		5F128CE320473A2D00399A72 /* uiDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiDraw.h; sourceTree = "<group>"; };
+		5F128CE420473A2D00399A72 /* rifle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rifle.cpp; sourceTree = "<group>"; };
+		5F128CE520473A2D00399A72 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		5F128CE620473A2E00399A72 /* rifle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rifle.h; sourceTree = "<group>"; };
+		5F128CEE20473A6A00399A72 /* bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bullet.cpp; sourceTree = "<group>"; };
+		5F128CEF20473A6A00399A72 /* bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bullet.h; sourceTree = "<group>"; };
+		5F128CF12048E66500399A72 /* flyingObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flyingObject.cpp; sourceTree = "<group>"; };
+		5F128CF22048E66500399A72 /* flyingObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flyingObject.h; sourceTree = "<group>"; };
+		5F128CF42048EA5D00399A72 /* bird.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bird.cpp; sourceTree = "<group>"; };
+		5F128CF52048EA5D00399A72 /* bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bird.h; sourceTree = "<group>"; };
+		5F128CF72048EBF800399A72 /* velocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = "<group>"; };
+		5F128CF82048EBF800399A72 /* velocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		5F128CFA2048EEA900399A72 /* toughBird.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = toughBird.cpp; sourceTree = "<group>"; };
+		5F128CFB2048EEA900399A72 /* toughBird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = toughBird.h; sourceTree = "<group>"; };
+		5F128CFD2048EEB700399A72 /* sacredBird.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sacredBird.cpp; sourceTree = "<group>"; };
+		5F128CFE2048EEB700399A72 /* sacredBird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sacredBird.h; sourceTree = "<group>"; };
+		5F128D012049E2EA00399A72 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5F128D032049E2F200399A72 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5F128D05204D80C100399A72 /* standardBird.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = standardBird.cpp; sourceTree = "<group>"; };
+		5F128D06204D80C100399A72 /* standardBird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = standardBird.h; sourceTree = "<group>"; };
+		5F8880FC204738B30080D7F3 /* skeet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = skeet; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F8880F9204738B30080D7F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F128D042049E2F200399A72 /* OpenGL.framework in Frameworks */,
+				5F128D022049E2EB00399A72 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F128D002049E2EA00399A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F128D032049E2F200399A72 /* OpenGL.framework */,
+				5F128D012049E2EA00399A72 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F8880F3204738B30080D7F3 = {
+			isa = PBXGroup;
+			children = (
+				5F8880FE204738B30080D7F3 /* skeet */,
+				5F8880FD204738B30080D7F3 /* Products */,
+				5F128D002049E2EA00399A72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F8880FD204738B30080D7F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8880FC204738B30080D7F3 /* skeet */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8880FE204738B30080D7F3 /* skeet */ = {
+			isa = PBXGroup;
+			children = (
+				5F128CDF20473A2D00399A72 /* makefile */,
+				5F128CDB20473A2C00399A72 /* driver.cpp */,
+				5F128CE220473A2D00399A72 /* game.h */,
+				5F128CDD20473A2D00399A72 /* game.cpp */,
+				5F128CE120473A2D00399A72 /* point.cpp */,
+				5F128CE520473A2D00399A72 /* point.h */,
+				5F128CE420473A2D00399A72 /* rifle.cpp */,
+				5F128CE620473A2E00399A72 /* rifle.h */,
+				5F128CF22048E66500399A72 /* flyingObject.h */,
+				5F128CF12048E66500399A72 /* flyingObject.cpp */,
+				5F128CEF20473A6A00399A72 /* bullet.h */,
+				5F128CEE20473A6A00399A72 /* bullet.cpp */,
+				5F128CF52048EA5D00399A72 /* bird.h */,
+				5F128CF42048EA5D00399A72 /* bird.cpp */,
+				5F128D06204D80C100399A72 /* standardBird.h */,
+				5F128D05204D80C100399A72 /* standardBird.cpp */,
+				5F128CFB2048EEA900399A72 /* toughBird.h */,
+				5F128CFA2048EEA900399A72 /* toughBird.cpp */,
+				5F128CFE2048EEB700399A72 /* sacredBird.h */,
+				5F128CFD2048EEB700399A72 /* sacredBird.cpp */,
+				5F128CF82048EBF800399A72 /* velocity.h */,
+				5F128CF72048EBF800399A72 /* velocity.cpp */,
+				5F128CE020473A2D00399A72 /* uiDraw.cpp */,
+				5F128CE320473A2D00399A72 /* uiDraw.h */,
+				5F128CDA20473A2C00399A72 /* uiInteract.cpp */,
+				5F128CDE20473A2D00399A72 /* uiInteract.h */,
+			);
+			path = skeet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8880FB204738B30080D7F3 /* skeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F888103204738B30080D7F3 /* Build configuration list for PBXNativeTarget "skeet" */;
+			buildPhases = (
+				5F8880F8204738B30080D7F3 /* Sources */,
+				5F8880F9204738B30080D7F3 /* Frameworks */,
+				5F8880FA204738B30080D7F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skeet;
+			productName = skeet;
+			productReference = 5F8880FC204738B30080D7F3 /* skeet */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8880F4204738B30080D7F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alison Orton";
+				TargetAttributes = {
+					5F8880FB204738B30080D7F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5F8880F7204738B30080D7F3 /* Build configuration list for PBXProject "skeet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F8880F3204738B30080D7F3;
+			productRefGroup = 5F8880FD204738B30080D7F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8880FB204738B30080D7F3 /* skeet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8880F8204738B30080D7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F128CE720473A2E00399A72 /* uiInteract.cpp in Sources */,
+				5F128CEC20473A2E00399A72 /* point.cpp in Sources */,
+				5F128CFF2048EEB700399A72 /* sacredBird.cpp in Sources */,
+				5F128CE820473A2E00399A72 /* driver.cpp in Sources */,
+				5F128CF92048EBF900399A72 /* velocity.cpp in Sources */,
+				5F128CF32048E66500399A72 /* flyingObject.cpp in Sources */,
+				5F128CF020473A6A00399A72 /* bullet.cpp in Sources */,
+				5F128CFC2048EEA900399A72 /* toughBird.cpp in Sources */,
+				5F128CED20473A2E00399A72 /* rifle.cpp in Sources */,
+				5F128CE920473A2E00399A72 /* game.cpp in Sources */,
+				5F128CEA20473A2E00399A72 /* makefile in Sources */,
+				5F128D07204D80C100399A72 /* standardBird.cpp in Sources */,
+				5F128CF62048EA5D00399A72 /* bird.cpp in Sources */,
+				5F128CEB20473A2E00399A72 /* uiDraw.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F888101204738B30080D7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F888102204738B30080D7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F888104204738B30080D7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F888105204738B30080D7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F8880F7204738B30080D7F3 /* Build configuration list for PBXProject "skeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F888101204738B30080D7F3 /* Debug */,
+				5F888102204738B30080D7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F888103204738B30080D7F3 /* Build configuration list for PBXNativeTarget "skeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F888104204738B30080D7F3 /* Debug */,
+				5F888105204738B30080D7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8880F4204738B30080D7F3 /* Project object */;
+}
